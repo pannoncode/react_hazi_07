@@ -1,0 +1,45 @@
+.valid {
+  text-align: center;
+  color: green;
+  font-size: 24px;
+  text-shadow: 1px 1px rgb(180, 135, 135);
+}
+
+.invalid {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  text-shadow: 1px 1px rgb(180, 135, 135);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+button {
+  font: inherit;
+  color: #5a1a01;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe6dc;
+}
+
+.actions .submit {
+  border: 1px solid #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+
+.actions .submit:hover,
+.actions .submit:active {
+  background-color: #7a2706;
+}
